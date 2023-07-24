@@ -13,10 +13,25 @@ body {
     color: #656C74;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* headings and logo */
 h1,
 h2 {
     font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+
+#logo {
+    font-size: 320%;
+}
+
+p {
+    font-family: Hind, sans-serif;
 }
 
 #logo,
@@ -24,7 +39,30 @@ p {
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+}
+
+nav ul li {
+    float: left;
+    margin-top: 20px;
+}
+
 #nav-bar {
     text-align: center;
     font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    padding: 18px;
+    
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid #656C74;
 }
