@@ -4,13 +4,24 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #EEEDE8;
+    background-color: #f5f6ee;
 }
 
 body {
     font-family: Hind, sans-serif;
     font-weight: 300;
     color: #656C74;
+}
+
+#topbar {
+    border-bottom: 1px solid #8b8989;
+}
+
+#topbar ul li {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
 }
 
 header {
@@ -35,6 +46,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    border: 2px solid #252525;
 }
 
 #logo {
