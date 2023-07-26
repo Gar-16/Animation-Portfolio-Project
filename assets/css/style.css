@@ -12,6 +12,7 @@ body {
     font-family: Hind, sans-serif;
     font-weight: 300;
     color: #656C74;
+    margin: 0px 2%;
 }
 
 #topbar {
@@ -21,12 +22,7 @@ body {
 }
 
 #topbar div {
-
-    /*text-align: right;
-    list-style: none;
-    display: inline-block;*/
     padding: 10px;
-
 }
 
 header {
@@ -83,6 +79,7 @@ nav ul li {
     text-align: center;
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
+
 }
 
 #nav-bar a {
@@ -110,7 +107,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 20px 0px 20px;
+    margin: 100px 20px 0px 20px;
 }
 
 .gallery .row {
@@ -127,11 +124,9 @@ nav ul li {
 
 .gallery .row .column img {
     width: 100%;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 5px;
-/* max-height: 500px;*/
+    /* max-height: 500px;*/
 }
 
-@media only screen and (max-width: 769px) {
-    
-}
+@media only screen and (max-width: 769px) {}
