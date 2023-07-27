@@ -7,7 +7,7 @@
     background-color: #f5f6ee;
     box-sizing: border-box;
 }
-
+/*Code for the body of the page*/
 body {
     font-family: Hind, sans-serif;
     font-weight: 300;
@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+/*"Topbar" of page containing icons*/
 
 #topbar {
     border-bottom: 1px solid #8b8989;
@@ -58,14 +59,13 @@ h2 {
     padding-top: 20px;
 }
 
-p {
-    font-family: Hind, sans-serif;
-}
 
 #logo,
-p {
+h1 {
     text-align: center;
 }
+
+/*Styling for navigation bar*/
 
 nav ul {
     list-style: none;
@@ -101,7 +101,7 @@ nav ul li {
     border-bottom: 1px solid #656C74;
 }
 
-/* Gallery */
+/* styling for Gallery */
 
 .gallery {
     display: flex;
@@ -136,7 +136,7 @@ nav ul li {
 @media only screen and (max-width: 769px) {}
 
 
-/*For the footer*/
+/*Styling for footer*/
 
 footer{
     padding: 10px;
