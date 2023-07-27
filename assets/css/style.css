@@ -13,6 +13,9 @@ body {
     font-weight: 300;
     color: #656C74;
     margin: 0px 2%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #topbar {
@@ -108,6 +111,7 @@ nav ul li {
     align-items: center;
     text-align: center;
     margin: 100px 20px 0px 20px;
+    flex: 1 0 auto;
 }
 
 .gallery .row {
@@ -130,3 +134,14 @@ nav ul li {
 }
 
 @media only screen and (max-width: 769px) {}
+
+
+/*For the footer*/
+
+footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #252525;
+    width: 50%;
+}
