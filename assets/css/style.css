@@ -25,6 +25,8 @@ body {
     border-bottom: 1px solid #8b8989;
     display: flex;
     justify-content: flex-end;
+    color: #F2F1EF;
+    
 }
 
 #topbar div {
@@ -69,25 +71,28 @@ h1 {
 
 /*Styling for navigation bar*/
 
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    padding-top: 20px;
+
+}
+
 nav ul {
     list-style: none;
-    display: inline-block;
-    padding: 5px;
+   
+    padding: 10px;
 }
 
 nav ul li {
-    float: left;
+    display: inline;
     margin-top: 20px;
 }
 
-#nav-bar {
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 4px;
 
-}
-
-#nav-bar a {
+nav a {
     text-decoration: none;
     color: inherit;
     margin-right: 30px;
@@ -194,11 +199,11 @@ footer {
     display: flex;
     justify-content: center;
     border-top: 2px solid #413f3D;
-    background-color: #B1A6A4;
+    background-color: 
+    
 
 }
 
 footer p{
-    background-color: #B1A6A4;
-    color: #413f3D;
+    background-color: 
 }
