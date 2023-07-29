@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #ffffff;
+    background-color: #F2F1EF;
     box-sizing: border-box;
 }
 
@@ -44,7 +44,7 @@ h1,
 h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    color: #252525;
+    color: #413f3D;
 }
 
 #profile-photo {
@@ -166,9 +166,9 @@ nav ul li {
 }
 
 .contact-container button {
-    background-color: white;
-    color: #252525;
-    border: 2px solid #252525;
+    background-color: #F2F1EF;
+    color: #413f3D;
+    border: 2px solid #413f3D;
     padding: 16px 30px;
     font-size: 16px;
     margin: 4px 2px;
@@ -181,9 +181,9 @@ nav ul li {
 }
 
 .contact-container button:hover {
-    background-color: #656C74;
-    color: white;
-    border: 2px solid #656C74;
+    background-color: #B1A6A4;
+    color: #F2F1EF;
+    border: 2px solid #B1A6A4;
     
 }
 
@@ -193,6 +193,12 @@ footer {
     padding: 150px;
     display: flex;
     justify-content: center;
-    border-top: 2px solid #252525;
+    border-top: 2px solid #413f3D;
+    background-color: #B1A6A4;
 
+}
+
+footer p{
+    background-color: #B1A6A4;
+    color: #413f3D;
 }
