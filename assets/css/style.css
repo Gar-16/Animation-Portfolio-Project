@@ -212,6 +212,7 @@ footer p {
     background-color:
 }
 
+/*Styling for Video*/
 .demo-reel {
     display: flex;
     justify-content: center;
@@ -222,4 +223,28 @@ footer p {
 .demo-reel iframe {
     display: flex;
     justify-content: center;
+}
+
+/*Styling for About page*/
+
+.info {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.info div {
+    padding: 10px;
+}
+
+.info h2 {
+    padding: 10px 0px;
+    
+}
+
+.info p {
+    padding:0px;
+}
+
+.info h4 {
+    letter-spacing: 2px;
 }
