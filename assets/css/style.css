@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #F2F1EF;
     box-sizing: border-box;
 }
 
@@ -17,6 +16,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #F2F1EF;
 }
 
 /*"Topbar" of page containing icons*/
@@ -152,9 +152,6 @@ nav a {
     border-bottom: 1px solid #969696;
 }
 
-@media only screen and (max-width: 1920px) {}
-
-
 /*Styling for Get in Touch link*/
 
 .contact-container {
@@ -199,20 +196,16 @@ nav a {
 /*Styling for footer*/
 
 footer {
-    padding: 150px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     border-top: 2px solid #413f3D;
-    background-color:
 
 
-}
-
-footer p {
-    background-color:
 }
 
 /*Styling for Video*/
+
 .demo-reel {
     display: flex;
     justify-content: center;
@@ -227,24 +220,83 @@ footer p {
 
 /*Styling for About page*/
 
+
 .info {
-    margin-top: 5%;
-    margin-left: 30%;
+    margin: 5% 15%;
+    text-align: justify;
+    background-color: #c1b7a9;
 }
 
 .info div {
-    padding: 10px;
+    padding: 15px;
 }
 
 .info h2 {
     padding: 10px 0px;
-    
+    text-align: center;
+
 }
 
 .info p {
-    padding:0px;
+    padding: 0px;
+    text-align: center;
 }
 
 .info h4 {
     letter-spacing: 2px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1920px) {}
+
+
+@media screen and (max-width: 870px) {
+
+}
+
+@media screen and (max-width: 430px) {
+
+    #profile-photo {
+        height: 150px;
+    }
+
+    #logo {
+        font-size: 300%;
+        padding-top: 20px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        letter-spacing: 3px;
+        padding-top: 20px;
+
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .demo-reel {
+        padding-top: 0px;
+    }
+
+    .demo-reel iframe {
+        height: 300px;
+    }
+
+        .info {
+            
+        }
+
+    
 }
