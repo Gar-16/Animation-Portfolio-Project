@@ -12,7 +12,7 @@
 body {
     font-family: Hind, sans-serif;
     font-weight: 300;
-    color: #656C74;
+    color: #413f3D;
     margin: 0px 2%;
     min-height: 100vh;
     display: flex;
@@ -25,12 +25,16 @@ body {
     border-bottom: 1px solid #8b8989;
     display: flex;
     justify-content: flex-end;
-    color: #F2F1EF;
     
 }
 
 #topbar div {
     padding: 10px 20px;
+}
+
+#topbar i {
+    font-size: 160%;
+    color: #413f3D;
 }
 
 header {
