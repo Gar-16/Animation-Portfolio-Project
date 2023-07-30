@@ -47,7 +47,7 @@ When trying to think of what I could build for my first project, a portfolio web
 
 ### Validator Testing
 - HTML
-  - - No errors were returned when passing through the official W3C validator
+  -  No errors were returned when passing through the official W3C validator
   
 ![HTML Validator Results](Media/Index-validation.png)
   
