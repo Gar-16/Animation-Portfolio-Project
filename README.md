@@ -1,39 +1,50 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Animation Portfolio Project
 
-Welcome,
+[View the live website here](https://gar-16.github.io/Project1/index.html)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+When trying to think of what I could build for my first project, a portfolio webiste was one of the first things that came to mind. Being an animator it was an easy choice to combine both areas of my life into one. The site was made for the creator to share with employers and viewers, to give them a an all in one hub to see the talents and skills of the creator should they wish to hire them. As well as providing some small background information about them and contact info so that they an get in touch. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![Responsive Mockup](Media/Responsive.png)
 
-## Codeanywhere Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Navigation Bar__
+  - dfss
+  - sfsf
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Navigation](Media/navigation-bar.png)
 
-`http_server`
+- __Gallery Section__ 
+  - kldjf 
+  - sdfg
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Gallery](Media/Gallery.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Get In Touch__
+  - skdflsk
+  - sdfsdg 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Get In Touch](Media/get-In-touch-button.png)
 
-To log into the Heroku toolbelt CLI:
+![Get in Touch 2](Media/Button-2.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Footer__
+  - sfdsg
+  - fgdfg 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Footer](Media/Footer.png)
 
----
+- __Demo Reel__
+  - fd;aslf
+  - dfgsd
 
-Happy coding!
+![Demo Reel](Media/demo-reel.png)
+
+- __About Me__
+  - sdfgs
+  - sdfgsdgf
+
+![About Me](Media/about-me.png)
