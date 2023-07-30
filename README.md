@@ -114,8 +114,10 @@ The live link can be found here: <https://gar-16.github.io/Project1/index.html>
 
 - The icons in the top bar of the page were taken from [Font Awesome](https://fontawesome.com/)
 - The Code for the Embedded video was taken from [Vimeo](https://vimeo.com/)
-- The code for the responsive Gallery was taken from [this Youtube video](https://www.youtube.com/watch?v=Trw_9lisYVY)
+- The code for the responsive Gallery and styling, was taken from [this Youtube video](https://www.youtube.com/watch?v=Trw_9lisYVY)
 - The Code for nav bar referenced from Love Running Project
+- Styling and hover transition code taken from [W3Schools](https://www.w3schools.com/css/css3_buttons.asp)
+  
 
 
 ## Media
