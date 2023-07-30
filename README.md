@@ -45,4 +45,28 @@ When trying to think of what I could build for my first project, a portfolio web
 
 ## Testing 
 
+### Validator Testing
+- HTML
+  - - No errors were returned when passing through the official W3C validator
+  
+![HTML Validator Results](Media/Index-validation.png)
+  
+- CSS
+  - No errors were returned when passing through the official Jigsaw validator 
 
+![CSS Validator Results](Media/CSS-validation.png)
+
+### Lighthouse Testing
+
+
+- Index Page Lighthouse Test
+  
+    ![Lighthouse Index](Media/Lighthouse1.png)
+    
+- Demo Reel Lighthouse Test
+
+    ![Lighthouse Demo Reel](Media/Lighthouse2.png)
+
+- About Lighthouse Test
+
+    ![Lighthouse About](Media/Lighthouse3.png)
