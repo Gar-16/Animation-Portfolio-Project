@@ -70,3 +70,53 @@ When trying to think of what I could build for my first project, a portfolio web
 - About Lighthouse Test
 
     ![Lighthouse About](Media/Lighthouse3.png)
+
+### Bugs
+
+- Had an issue with one image not loading when site was deployed but loaded in preview. Issue was because of using an absolute path. Fixed when adjusted correctly.
+  
+  ![Bug Screenshot](Media/Bug1.png)
+
+- Had an issue with the "Get in Touch!" button now showing correctly. Found it was because I needed the button attribute inside the a attribute. Although this fixed the issue and the code worked and showed up. It was not correct according to the validator. I then got rid of the button attribute and instead styled the button from using CSS 
+
+    ![Bug2 Screenshot](Media/Bug2.png)
+
+- While embedding the video, and using the emmbedding code provided by Vimeo, I was havinng an issue with positioning and sizing the video. I found that this was because the HTML code that was imported had styling within it and this had to be removed as it was over writing any CSS style i tried to apply. Width and Height were kept in as this can not be adjusted in CSS.
+
+    ![iframe Code](Media/Bug3.png)
+
+
+### Browser Compatability
+
+- Site was built and works with Google Chrome
+
+- Site has been test and works with Microsoft Edge
+
+- Site has been test and works with Firefox 
+  
+- Site has been test and works with Opera 
+
+
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  
+  - From the source section drop-down menu, select the Master Branch
+  
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: <https://gar-16.github.io/Project1/index.html>
+
+# Credits
+
+## Content
+
+- The icons in the top bar of the page were taken from [Font Awesome](https://fontawesome.com/)
+- The Code for the Embedded video was taken from [Vimeo](https://vimeo.com/)
+- The code for the responsive Gallery was taken from [this Youtube video](https://www.youtube.com/watch?v=Trw_9lisYVY)
+- The Code for nav bar referenced from Love Running Project
+
+
+## Media
+- All images used are my own
